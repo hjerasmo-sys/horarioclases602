@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Horario Grado 602</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+  <header class="encabezado">
+    <h1>Institucion Educativa Santa Ana</h1>
+    <h2>San Sebastian de Mariquita - Tolima</h2>
+  </header>
+
+  <main class="contenido-principal">
+    <div class="tarjeta-horario">
+	<h1>Horario de Clases</h1>
+    <h2>Grado 602 - 2025</h2>
+	
+      <table>
+        <thead>
+          <tr>
+            <th>#</th><th>Hora</th><th>Lunes</th><th>Martes</th><th>Miércoles</th><th>Jueves</th><th>Viernes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>7:00 - 7:50</td><td>Tecnología e informática</td><td>Matemáticas</td><td>Ética</td><td>Sociales</td><td>Ciencias</td></tr>
+          <tr><td>2</td><td>7:55 - 8:45</td><td>Tecnología e informática</td><td>Español</td><td>Español</td><td>Inglés</td><td>Sociales</td></tr>
+          <tr><td>3</td><td>8:50 - 9:40</td><td>Ciencias</td><td>Contabilidad</td><td>Matemáticas</td><td>Religión</td><td>Español</td></tr>
+          <tr><td></td><td>9:45 - 10:15</td><td>DE</td><td>S</td><td>CA</td><td>N</td><td>SO</td></tr>
+          <tr><td>4</td><td>10:20 - 11:10</td><td>Sociales</td><td>Religión</td><td>Ciencias</td><td>Ed. Física</td><td>Filosofía</td></tr>
+          <tr><td>5</td><td>11:15 - 12:05</td><td>Matemáticas</td><td>Inglés</td><td>Sociales</td><td>Ed. Física</td><td>Artística</td></tr>
+          <tr><td>6</td><td>12:10 - 13:00</td><td>Ambiental</td><td>Sociales</td><td>Matemáticas</td><td>Español</td><td>Matemáticas</td></tr>
+        </tbody>
+      </table>
+
+      <div class="botones">
+        <button class="imprimir" onclick="window.print()">🖨️ Imprimir</button>
+        <button class="pdf" onclick="descargarPDF()">📥 Descargar PDF</button>
+        <a href="https://wa.me/?text=¡Hola! Aquí te comparto el horario de grado 602: https://sites.google.com/view/horario-de-clases-602/p%C3%A1gina-principal" target="_blank">
+          <button class="whatsapp">📲 WhatsApp</button>
+        </a>
+        <a href="mailto:?subject=Horario Grado 602&body=Hola,%0AAquí está el horario: https://tusitio.com/horario602" target="_blank">
+          <button class="correo">📧 Correo</button>
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
